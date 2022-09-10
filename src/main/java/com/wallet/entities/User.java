@@ -25,6 +25,7 @@ public class User implements Serializable{
 	private String name;
 	@Column(nullable = false)
 	private String email;
+	
 	public Long getId() {
 		return id;
 	}
